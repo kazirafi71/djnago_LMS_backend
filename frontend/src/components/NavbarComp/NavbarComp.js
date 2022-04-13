@@ -4,7 +4,7 @@ import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
 const NavbarComp = () => {
   return (
     <div>
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="dark" variant="dark" expand="md">
         <Container>
           <Navbar.Brand href="/">Learn Online</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -17,7 +17,7 @@ const NavbarComp = () => {
                 <NavDropdown.Item href="/teacher-registration">
                   Registration
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/teacher-dashboard">
+                <NavDropdown.Item href="/teacher/dashboard">
                   Dashboard
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
